@@ -57,7 +57,7 @@ ROOT: Final = Path(__file__).resolve().parents[1]
 MODEL_PATH: Final = ROOT / "models" / "tc_xgboost.joblib"
 METRICS_PATH: Final = ROOT / "models" / "metrics.json"
 GITHUB_URL: Final = os.getenv(
-    "GITHUB_REPO_URL", "https://github.com/<github-username>/36120-26SP-AT3-Group08-StudentC-api"
+    "GITHUB_REPO_URL", "https://github.com/nandeeswari19-web/36120-26SP-AT3-Group08-StudentC-api"
 )
 SUPPORTED: Final[list[str]] = list(SUPPORTED_TOKENS)
 MAX_HISTORY_DAYS: Final = 365

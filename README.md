@@ -9,7 +9,7 @@
 | **Group** | 08 |
 | **Student** | Student C – Nandeeswari Kumaravelu – 25980436 |
 | **Deployment** | `https://<student-c-service>.onrender.com` _(add after deploying)_ |
-| **Repository** | `https://github.com/<github-username>/36120-26SP-AT3-Group08-StudentC-api` |
+| **Repository** | `https://github.com/nandeeswari19-web/36120-26SP-AT3-Group08-StudentC-api` |
 | **Experiments** | `notebooks/student_c/` and `at3_crypto/modeling/student_c_tc.py` in `36120-26SP-AT3-Group08-experiments` |
 | **Contract** | `CONTRACT.md` in the experiments repository (feature names, request/response shapes, errors) |
 
@@ -119,7 +119,7 @@ Returns `token`, `as_of_date`, `source`, `features` {`Volatility20`, `MaxPrice20
 ## 4. Setup and run locally
 
 ```bash
-git clone https://github.com/<github-username>/36120-26SP-AT3-Group08-StudentC-api.git
+git clone https://github.com/nandeeswari19-web/36120-26SP-AT3-Group08-StudentC-api.git
 cd 36120-26SP-AT3-Group08-StudentC-api
 python3.12 -m venv .venv && source .venv/bin/activate      # Python 3.12.13
 pip install -r requirements-dev.txt
