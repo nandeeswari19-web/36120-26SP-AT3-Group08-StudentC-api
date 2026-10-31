@@ -1,0 +1,18 @@
+# Render Blueprint - Student C Trend Category API
+services:
+  - type: web
+    name: group08-studentc-trend-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: STUDENT_A_URL          # Student A's Render URL (Return20, Return5)
+        sync: false
+      - key: STUDENT_B_URL          # Student B's Render URL (MA5, MA20)
+        value: https://group08-studentb-mri-api.onrender.com
+      - key: GITHUB_REPO_URL
+        sync: false
