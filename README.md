@@ -8,7 +8,7 @@
 | **Assessment** | AT3 – Data Product with Machine Learning |
 | **Group** | 08 |
 | **Student** | Student C – Nandeeswari Kumaravelu – 25980436 |
-| **Deployment** | `https://<student-c-service>.onrender.com` _(add after deploying)_ |
+| **Deployment** | `https://three6120-26sp-at3-group08-studentc-api.onrender.com/`|
 | **Repository** | `https://github.com/nandeeswari19-web/36120-26SP-AT3-Group08-StudentC-api` |
 | **Experiments** | `notebooks/student_c/` and `at3_crypto/modeling/student_c_tc.py` in `36120-26SP-AT3-Group08-experiments` |
 | **Contract** | `CONTRACT.md` in the experiments repository (feature names, request/response shapes, errors) |
